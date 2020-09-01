@@ -1,0 +1,13 @@
+<form>
+<label for="userName"> Name: </label>
+<input type="text" id="Username" name="userName"> <br><br> 
+
+<label for="currentAddress"> CurrentAddress: </label>
+<input type="text" id="CurrentAddress" name="CurrentAddress"> <br><br> 
+
+<label for="PerAddress"> PermanentAddress: </label>
+<input type="text" id="PerAddress" name=""PerAddress""> <br><br> 
+
+<input> type ="Submit" id ="Submit" onclick ='alert'('Hello perform action!')" value="Submit"</input>
+
+</form>

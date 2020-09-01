@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;JunitTest.second&apos; to &apos;SanityPack&apos;&#x0D;&#x0A;- Original project: &apos;JunitFrameworkDemo&apos;&#x0D;&#x0A;- Original element: &apos;JunitTest.second&apos;&#x0D;&#x0A;- Renamed element: &apos;JunitTest.SanityPack&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;second&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;JunitTest{second.java[second" matchStrategy="1" name="SanityPack" qualified="false" references="true" similarDeclarations="false" stamp="1598798261372" textual="false" version="1.0"/>
+</session>

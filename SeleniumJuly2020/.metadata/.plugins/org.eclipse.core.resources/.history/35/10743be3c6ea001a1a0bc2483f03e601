@@ -1,0 +1,11 @@
+import java.io.FileInputStream;
+
+public class ExcelReaderTest {
+
+	public static void main(String[] args) {
+	
+		FileInputStream fis=new FileInputStream ("C:\\Driver\\ExcelPractice\\test.xlsx");
+
+	}
+
+}

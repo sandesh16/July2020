@@ -1,0 +1,25 @@
+package JunitTest;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class SanityPack {
+	
+	@Test
+	public  void test1()
+	{
+		
+		System.out.println("This is sanity test case 1");
+		
+	}
+
+	@Test 
+	public  void test2()
+	{
+		
+		System.out.println("This is sanity test case 2");
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Google  {
+
+	
+	public static void main(String[] args) throws Exception {
+		
+		//Creating Object of the ExcelReader Class
+
+		 ExcelReadergoogle ERead= new ExcelReadergoogle();   
+
+		 //Storing the Data retuned from the ExcelReader method in to a String variable   
+		  String ExcelData=ERead.ReadExcelData(); 
+		 
+		  System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
+		  
+		  WebDriver driver = new ChromeDriver();  
+		  driver.get("https://www.amazon.in/"); 
+		  
+		 		  
+		  //Using the ExcelData String variable in SendKeys    
+		  driver.findElement(By.id("twotabsearchtextbox")).sendKeys(ExcelData);    
+		  
+	} 
+		  
+	} 
+	 

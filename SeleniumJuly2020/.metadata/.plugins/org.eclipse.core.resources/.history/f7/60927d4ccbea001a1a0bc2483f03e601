@@ -1,0 +1,59 @@
+package JunitTest;
+
+import org.apache.http.util.Asserts;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.Test;
+import org.junit.validator.PublicClassValidator;
+
+public class JunitAnnotation {
+	
+int a=10;
+int b=5;
+int c;
+
+@BeforeClass
+public static void setupclass()
+{
+	System.out.println("This is @Before  class annotation");
+}
+
+@Before
+public  void Setup()
+{
+	System.out.println("This is @Before annotation");
+}
+
+@Test
+public static void Addition()
+{
+	c=a+b;
+	
+}
+
+@BeforeClass
+public static void setup()
+{
+	System.out.println("This is @Before class annotation");
+}
+
+@BeforeClass
+public static void setup()
+{
+	System.out.println("This is @Before class annotation");
+}
+
+@BeforeClass
+public static void setup()
+{
+	System.out.println("This is @Before class annotation");
+}
+
+@BeforeClass
+public static void setup()
+{
+	System.out.println("This is @Before class annotation");
+}
+
+
+}

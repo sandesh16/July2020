@@ -1,0 +1,25 @@
+package actionsClassDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class KeyBoardEventsTest {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C://Driver//chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("C:\\Users\\Sandesh\\Desktop\\test.HTML");
+		
+		driver.manage().window().maximize();
+		
+		 WebElement username= driver.findElement(By.id("Username"));
+		 WebElement CurrentAddress= driver.findElement(By.id("CurrentAddress"));
+		 WebElement PermanentAddress= driver.findElement(By.id("PerAddress"));
+		 WebElement SubmitButton= driver.findElement(By.id("Submit"));
+	
+	}
+
+}

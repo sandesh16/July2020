@@ -1,0 +1,68 @@
+package JunitTest;
+
+
+import org.apache.http.util.Asserts;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Ignore;
+import org.junit.jupiter.api.Test;
+
+
+public class JunitAnnotation {
+	
+ int a=10;
+int b=5;
+Object c;
+
+@BeforeClass
+public static void setupclass()
+{
+	System.out.println("This is @Before  class annotation");
+}
+
+@Before
+public  void Setup()
+{
+	System.out.println("This is @Before annotation");
+}
+
+@Test
+public  void Addition()
+{
+	c=a+b;
+	//Assert
+	
+}
+
+@Test
+public  void Multiplication()
+{
+	c=a*b;
+
+}
+
+@After
+public void TearDown()
+{
+	c=null;
+	System.out.println("This @After annotation");
+	
+}
+
+@AfterClass
+public static void TearDownClass()
+{
+	System.out.println("This is @@AfterClass  annotation");
+}
+
+@Ignore
+public static void IgnoreMessage()
+{
+	System.out.println("This is @IgnoreMessage annotation");
+}
+
+
+}

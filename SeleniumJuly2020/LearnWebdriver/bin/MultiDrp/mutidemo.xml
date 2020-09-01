@@ -1,0 +1,12 @@
+<html>
+<div>
+<select id="fruits" multiple="">
+<option value="banana">Banana</option>
+<option value="apple">Apple</option>
+<option value="mango">Mango</option>
+
+</select>
+
+</div>
+
+</html>

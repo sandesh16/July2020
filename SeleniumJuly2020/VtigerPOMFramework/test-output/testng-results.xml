@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24431" started-at="2020-08-31T04:04:10Z" finished-at="2020-08-31T04:04:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24431" started-at="2020-08-31T04:04:10Z" finished-at="2020-08-31T04:04:34Z">
+      <class name="com.vtiger.tests.LeadE2E">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:com.vtiger.tests.LeadE2E@5ed828d]" name="LaunchApp" is-config="true" duration-ms="7355" started-at="2020-08-31T04:04:10Z" finished-at="2020-08-31T04:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="verifyLeadE2Efunctionality()[pri:0, instance:com.vtiger.tests.LeadE2E@5ed828d]" name="verifyLeadE2Efunctionality" duration-ms="5341" started-at="2020-08-31T04:04:17Z" finished-at="2020-08-31T04:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeadE2Efunctionality -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:com.vtiger.tests.LeadE2E@5ed828d]" name="closeapp" is-config="true" duration-ms="1553" started-at="2020-08-31T04:04:23Z" finished-at="2020-08-31T04:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.vtiger.tests.LeadE2E -->
+      <class name="com.vtiger.tests.LoginTest">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:com.vtiger.tests.LoginTest@50d0686]" name="LaunchApp" is-config="true" duration-ms="6724" started-at="2020-08-31T04:04:24Z" finished-at="2020-08-31T04:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.vtiger.tests.LoginTest@50d0686]" name="validLogin" duration-ms="2605" started-at="2020-08-31T04:04:31Z" finished-at="2020-08-31T04:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="verifyLoginPageContent()[pri:0, instance:com.vtiger.tests.LoginTest@50d0686]" name="verifyLoginPageContent" duration-ms="93" started-at="2020-08-31T04:04:34Z" finished-at="2020-08-31T04:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageContent -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:com.vtiger.tests.LoginTest@50d0686]" name="closeapp" is-config="true" duration-ms="723" started-at="2020-08-31T04:04:34Z" finished-at="2020-08-31T04:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.vtiger.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

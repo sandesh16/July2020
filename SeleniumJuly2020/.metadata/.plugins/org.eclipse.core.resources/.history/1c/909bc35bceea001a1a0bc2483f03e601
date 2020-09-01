@@ -1,0 +1,25 @@
+package JunitTest;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class second {
+	
+	@Test
+	public  void Addition()
+	{
+		
+		System.out.println("This is second class annotation" +c);
+		
+	}
+
+	@Test 
+	public  void Multiplication()
+	{
+		
+		System.out.println("This is second test annotation" +c);
+
+	}
+
+}

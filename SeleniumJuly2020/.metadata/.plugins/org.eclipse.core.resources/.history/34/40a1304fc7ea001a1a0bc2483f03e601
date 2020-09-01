@@ -1,0 +1,29 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import com.google.common.collect.Table.Cell;
+
+public class ExcelReaderTest {
+
+	public static void main(String[] args) throws IOException {
+	
+		FileInputStream fis=new FileInputStream ("C:\\Driver\\ExcelPractice\\test.xlsx");
+		
+		XSSFWorkbook workbook=new XSSFWorkbook(fis);
+		
+		XSSFSheet sheet=workbook.getSheetAt(0);
+		
+		Row row=sheet.getRow(0);
+		Cell cell=row.getCell(0);
+		
+		System.out.println(cell);
+		
+
+	}
+
+}
