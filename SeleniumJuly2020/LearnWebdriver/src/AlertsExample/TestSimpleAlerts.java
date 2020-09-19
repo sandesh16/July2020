@@ -9,7 +9,7 @@ public class TestSimpleAlerts {
 	public static void main(String[] args) throws Exception {
 		System.setProperty("webdriver.chrome.driver","C:\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-				
+		//test		
 		driver.get("http://localhost:100/");
 		driver.manage().window().maximize();
 		
